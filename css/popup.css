@@ -1,0 +1,63 @@
+/* ======================
+   FIRST MODAL POPUP
+====================== */
+
+/* ======================
+   LANGUAGE POPUP
+====================== */
+.popup_lang {
+  display: none;
+  border: 1px solid red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 37rem;
+  height: 15.8rem;
+  padding: 3.5rem;
+}
+.lang_wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 85%;
+  padding-top: 1.5rem;
+}
+.lang_wrap .close_btn {
+  border: none;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  background: none;
+
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.lang_select_wrap {
+  margin-top: 1.5rem;
+}
+#lang_select {
+  border-style: none;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+.lang_link_button {
+  border-style: none;
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1.5rem;
+
+  background: #000;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+/* ======================
+   JOIN POPUP
+====================== */
